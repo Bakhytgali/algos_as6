@@ -14,6 +14,8 @@ public class MyGraph<Vertex> {
     public void addEdge(Vertex source, Vertex dest){
         validateVertex(source);
         validateVertex(dest);
+        list.get(source).add(dest);
+        list.get(dest).add(source);
     }
     private void validateVertex(Vertex index){
         if(!list.containsKey(index)) {
