@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="creating printGraph() function that outputs the graph">
+    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="outputing every vertex and outputing vertexes that are connected to it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685340799504</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="outputing every vertex and outputing vertexes that are connected to it">
+      <created>1685340997314</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685340997314</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +147,7 @@
     <MESSAGE value="after validating, adding both source and destination vertexes to my graph" />
     <MESSAGE value="tests for addVertex() and addEdge() functions" />
     <MESSAGE value="creating printGraph() function that outputs the graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating printGraph() function that outputs the graph" />
+    <MESSAGE value="outputing every vertex and outputing vertexes that are connected to it" />
+    <option name="LAST_COMMIT_MESSAGE" value="outputing every vertex and outputing vertexes that are connected to it" />
   </component>
 </project>

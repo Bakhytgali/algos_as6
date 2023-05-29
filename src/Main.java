@@ -9,5 +9,6 @@ public class Main {
         gr.addEdge(1,2);
         gr.addEdge(2,3);
         gr.addEdge(3,4);
+        gr.printGraph();
     }
 }
