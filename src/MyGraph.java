@@ -15,4 +15,9 @@ public class MyGraph<Vertex> {
         validateVertex(source);
         validateVertex(dest);
     }
+    private void validateVertex(Vertex index){
+        if(!list.containsKey(index)) {
+            throw new IllegalArgumentException();
+        }
+    }
 }
