@@ -11,4 +11,8 @@ public class MyGraph<Vertex> {
     public void addVertex(Vertex vertex){
         list.put(vertex, new LinkedList<>());
     }
+    public void addEdge(Vertex source, Vertex dest){
+        validateVertex(source);
+        validateVertex(dest);
+    }
 }
