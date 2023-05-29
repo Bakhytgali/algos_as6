@@ -8,4 +8,7 @@ public class MyGraph<Vertex> {
     public MyGraph(){
         list = new HashMap<>();
     }
+    public void addVertex(Vertex vertex){
+        list.put(vertex, new LinkedList<>());
+    }
 }
