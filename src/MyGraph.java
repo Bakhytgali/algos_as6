@@ -5,4 +5,7 @@ import java.util.List;
 
 public class MyGraph<Vertex> {
     private Map<Vertex, List<Vertex>> list;
+    public MyGraph(){
+        list = new HashMap<>();
+    }
 }
