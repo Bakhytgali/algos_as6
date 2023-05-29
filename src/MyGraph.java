@@ -22,4 +22,9 @@ public class MyGraph<Vertex> {
             throw new IllegalArgumentException();
         }
     }
+    public void printGraph(){
+        for(Map.Entry<Vertex, List<Vertex>> entry : list.entrySet()){
+            Vertex vertex = entry.getKey();
+        }
+    }
 }
