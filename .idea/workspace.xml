@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="creating validateVertex() function that checks if the graph has particular vertex">
+    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="after validating, adding both source and destination vertexes to my graph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685340376183</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="after validating, adding both source and destination vertexes to my graph">
+      <created>1685340473230</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685340473230</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +122,7 @@
     <MESSAGE value="creating addVertex() function that adds a vertex to the graph" />
     <MESSAGE value="creating an addEdge() function to add an edge between vertexes, and validating both source vertex and destination vertex" />
     <MESSAGE value="creating validateVertex() function that checks if the graph has particular vertex" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating validateVertex() function that checks if the graph has particular vertex" />
+    <MESSAGE value="after validating, adding both source and destination vertexes to my graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="after validating, adding both source and destination vertexes to my graph" />
   </component>
 </project>
