@@ -3,5 +3,6 @@ import java.util.LinkedList;
 import java.util.HashMap;
 import java.util.List;
 
-public class MyGraph {
+public class MyGraph<Vertex> {
+    private Map<Vertex, List<Vertex>> list;
 }
