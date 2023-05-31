@@ -59,7 +59,7 @@ public class MyGraph<Vertex> {
         }
         DFSHelper(start, visited);
     }
-    public void DFSHelper(Vertex vertex, Map<Vertex, Boolean> visited){
+    private void DFSHelper(Vertex vertex, Map<Vertex, Boolean> visited){
         visited.put(vertex, true);
         System.out.print(vertex + " ");
         for(Vertex neighbor : list.get(vertex)){
@@ -67,5 +67,8 @@ public class MyGraph<Vertex> {
                 DFSHelper(neighbor, visited);
             }
         }
+    }
+    private int djikstra(Vertex source, Vertex dest){
+
     }
 }
