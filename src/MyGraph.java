@@ -51,4 +51,7 @@ public class MyGraph<Vertex> {
         validateVertex(vertex);
         return list.getOrDefault(vertex, new LinkedList<>());
     }
+    public void DFS(Vertex start) {
+        validateVertex(start);
+    }
 }
