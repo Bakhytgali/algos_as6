@@ -53,5 +53,10 @@ public class MyGraph<Vertex> {
     }
     public void DFS(Vertex start) {
         validateVertex(start);
+        Map<Vertex, Boolean> visited = new HashMap<>();
+        for(Vertex vertex : list.keySet()) {
+            visited.put(vertex, false);
+        }
+        DFSHelper(start, visited);
     }
 }
