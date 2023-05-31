@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class MyGraph<Vertex> {
-    private Map<Vertex, List<Vertex>> list;
+public class MyGraph<V> {
+    private Map<Vertex, List<Edge<V>>> list;
     public MyGraph(){
         list = new HashMap<>();
     }
@@ -65,13 +65,30 @@ public class MyGraph<Vertex> {
             }
         }
     }
-    public int dijkstra(Vertex source, Vertex dest){
-        validateVertex(source);
-        validateVertex(dest);
-        List<Vertex> neighbors = list.get(source);
-        for(Vertex neighbor : neighbors) {
-            List<Vertex> neighbors2 = list.get(neighbor);
+    public Map<Vertex, Double> dijkstra(Vertex start) {
+        Map<Vertex, Double> distances = new HashMap<>();
+        for (Vertex node : list.keySet()) {
+            distances.put(node, Double.MAX_VALUE);
         }
+        distances.put(start, 0d);
+
+        PriorityQueue<Vertex> queue = new PriorityQueue<>(Comparator.comparingDouble(distances::get));
+        queue.add(start);
+
+        while (!queue.isEmpty()) {
+            Vertex currentVertex = queue.poll();
+
+            for (Edge neighbor : list.get(currentVertex)) {
+                double distance = distances.get(currentVertex) + neighbor.getWeight();
+
+                if (distance < distances.get(currentVertex)) {
+                    distances.put(currentVertex, distance);
+                    queue.add((Vertex) neighbor.getDest());
+                }
+            }
+        }
+
+        return distances;
     }
 }
 
