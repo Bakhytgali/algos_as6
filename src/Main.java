@@ -10,5 +10,7 @@ public class Main {
         gr.addEdge(2,3);
         gr.addEdge(3,4);
         gr.printGraph();
+        gr.removeEdge(1,3);
+        gr.printGraph();
     }
 }
