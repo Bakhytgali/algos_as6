@@ -42,6 +42,9 @@ public class MyGraph<Vertex> {
     public void removeEdge(Vertex source, Vertex dest) {
         validateVertex(source);
         validateVertex(dest);
-
+        List<Vertex> neighbors = list.get(source);
+        if(neighbors != null) {
+            neighbors.remove(dest);
+        } list.get(dest).remove(source);
     }
 }

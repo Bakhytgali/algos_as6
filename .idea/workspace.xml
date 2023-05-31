@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="creating a removeEdge() function that removes particular edge">
+    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="checking source &amp; destination vertexes for validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
     </list>
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685542379954</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="checking source &amp; destination vertexes for validation">
+      <created>1685542479981</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685542479981</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +186,7 @@
     <MESSAGE value="creating a function that checks if the edge exist" />
     <MESSAGE value="in method hasEdge(), validating source and destination vertexes, and checking the edge" />
     <MESSAGE value="creating a removeEdge() function that removes particular edge" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating a removeEdge() function that removes particular edge" />
+    <MESSAGE value="checking source &amp; destination vertexes for validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking source &amp; destination vertexes for validation" />
   </component>
 </project>
