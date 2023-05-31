@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="outputing every vertex and outputing vertexes that are connected to it">
+    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="testing for printGraph() function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685340997314</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="testing for printGraph() function">
+      <created>1685341053118</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685341053118</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +154,7 @@
     <MESSAGE value="tests for addVertex() and addEdge() functions" />
     <MESSAGE value="creating printGraph() function that outputs the graph" />
     <MESSAGE value="outputing every vertex and outputing vertexes that are connected to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="outputing every vertex and outputing vertexes that are connected to it" />
+    <MESSAGE value="testing for printGraph() function" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing for printGraph() function" />
   </component>
 </project>

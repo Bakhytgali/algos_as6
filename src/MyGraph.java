@@ -33,4 +33,6 @@ public class MyGraph<Vertex> {
             System.out.println();
         }
     }
+    public boolean hasEdge(Vertex vertex){
+    }
 }
