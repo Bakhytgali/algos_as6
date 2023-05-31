@@ -12,6 +12,6 @@ public class Main {
         gr.printGraph();
         gr.removeEdge(1,3);
         gr.printGraph();
-        gr.hasEdge(2,3);
+        System.out.println(gr.hasEdge(1, 3));
     }
 }
