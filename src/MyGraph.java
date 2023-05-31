@@ -1,7 +1,4 @@
-import java.util.Map;
-import java.util.LinkedList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class MyGraph<Vertex> {
     private Map<Vertex, List<Vertex>> list;
@@ -68,7 +65,13 @@ public class MyGraph<Vertex> {
             }
         }
     }
-    private int djikstra(Vertex source, Vertex dest){
-
+    public int dijkstra(Vertex source, Vertex dest){
+        validateVertex(source);
+        validateVertex(dest);
+        List<Vertex> neighbors = list.get(source);
+        for(Vertex neighbor : neighbors) {
+            List<Vertex> neighbors2 = list.get(neighbor);
+        }
     }
 }
+
