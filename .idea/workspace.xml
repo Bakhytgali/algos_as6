@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="creating Depth First Search() method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
+    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="creating DFSHelper function">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685543263651</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="creating DFSHelper function">
+      <created>1685543408936</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685543408936</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,6 +255,7 @@
     <MESSAGE value="creating getNeighbors() method" />
     <MESSAGE value="adding test for getNeighbors method()" />
     <MESSAGE value="creating Depth First Search() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating Depth First Search() method" />
+    <MESSAGE value="creating DFSHelper function" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating DFSHelper function" />
   </component>
 </project>
