@@ -13,5 +13,6 @@ public class Main {
         gr.removeEdge(1,3);
         gr.printGraph();
         System.out.println(gr.hasEdge(1, 3));
+        System.out.println(gr.getNeighbors(2));
     }
 }
