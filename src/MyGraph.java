@@ -33,13 +33,13 @@ public class MyGraph<V> {
     public boolean hasEdge(Vertex source, Vertex dest){
         validateVertex(source);
         validateVertex(dest);
-        List<Vertex> neighbors = list.get(source);
+        List<Edge<V>> neighbors = list.get(source);
         return neighbors != null && neighbors.contains(dest);
     }
     public void removeEdge(Vertex source, Vertex dest) {
         validateVertex(source);
         validateVertex(dest);
-        List<Vertex> neighbors = list.get(source);
+        List<Edge<V>> neighbors = list.get(source);
         if(neighbors != null) {
             neighbors.remove(dest);
         } list.get(dest).remove(source);
