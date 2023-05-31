@@ -39,4 +39,7 @@ public class MyGraph<Vertex> {
         List<Vertex> neighbors = list.get(source);
         return neighbors != null && neighbors.contains(dest);
     }
+    public void removeEdge() {
+
+    }
 }
