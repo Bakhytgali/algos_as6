@@ -47,5 +47,8 @@ public class MyGraph<Vertex> {
             neighbors.remove(dest);
         } list.get(dest).remove(source);
     }
-
+    public List<Vertex> getNeighbors(Vertex vertex){
+        validateVertex(vertex);
+        return list.getOrDefault(vertex, new LinkedList<>());
+    }
 }
