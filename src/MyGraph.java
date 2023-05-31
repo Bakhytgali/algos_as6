@@ -33,6 +33,10 @@ public class MyGraph<Vertex> {
             System.out.println();
         }
     }
-    public boolean hasEdge(Vertex vertex){
+    public boolean hasEdge(Vertex source, Vertex dest){
+        validateVertex(source);
+        validateVertex(dest);
+        List<Vertex> neighbors = list.get(source);
+        return neighbors != null && neighbors.contains(dest);
     }
 }
