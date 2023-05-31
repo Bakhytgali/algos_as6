@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="creating Djikstra algorithm">
+    <list default="true" id="51fb0f9b-ed51-4a7b-a14d-60c2e3f5e28f" name="Changes" comment="fixing bugs in addEdge()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,13 +244,31 @@
       <option name="project" value="LOCAL" />
       <updated>1685546144327</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="creating dijkstra algorithm">
+      <created>1685547260553</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685547260553</updated>
+    </task>
+    <task id="LOCAL-00030" summary="creating edge &amp; vertex classes">
+      <created>1685547966234</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1685547966234</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fixing bugs in addEdge()">
+      <created>1685548065642</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685548065642</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating MyGraph class" />
-    <MESSAGE value="importing the libraries that I'll need" />
-    <MESSAGE value="creation of Map list" />
     <MESSAGE value="creating a constructor for MyGraph class" />
     <MESSAGE value="creating addVertex() function that adds a vertex to the graph" />
     <MESSAGE value="creating an addEdge() function to add an edge between vertexes, and validating both source vertex and destination vertex" />
@@ -272,6 +291,9 @@
     <MESSAGE value="creating DFSHelper function" />
     <MESSAGE value="creating tests for DFS() method" />
     <MESSAGE value="creating Djikstra algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating Djikstra algorithm" />
+    <MESSAGE value="creating dijkstra algorithm" />
+    <MESSAGE value="creating edge &amp; vertex classes" />
+    <MESSAGE value="fixing bugs in addEdge()" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing bugs in addEdge()" />
   </component>
 </project>
